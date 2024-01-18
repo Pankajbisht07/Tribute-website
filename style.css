@@ -1,0 +1,175 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    background-color: rgb(198, 198, 229);
+    width: 100%;
+    min-height: 100vh;
+    border: 10px solid #1d1e4c;
+}
+.heading{
+    max-width: 800px;
+    margin: 0px auto;
+}
+.img-container, img{
+    width: 300px;
+    height: 350px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+/* .img-container{
+   
+} */
+.top-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    align-items: flex-end;
+}
+.top-section h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #1d1e4c;
+    text-transform: uppercase;
+}
+.top-section h4{
+    text-align: end;
+    font-size: 30px;
+}
+/* section2 */
+.about-section{
+    margin-top: 50px;
+}
+.about-section h2{
+    font-size: 50px;
+    font-weight: 300px;
+    margin-bottom: 30px;
+}
+.about-section p{
+    font-size: 20px;
+    line-height: 35px;
+    letter-spacing: 1.2px;
+    text-align: justify;
+}
+/* section3 */
+.bio-section{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.bio-section h3{
+    font-size: 40px;
+    font-weight: 200px;
+    margin-bottom: 30px;
+}
+.bio-section ul{
+    margin-left: 50px;
+}
+.bio-section li{
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+    font-weight: 100px;
+}
+footer{
+    margin: 50px 0;
+}
+footer p{
+    text-align: end;
+}
+
+
+@media screen and (min-width: 300px) and (max-width:400px) {
+    .img-container, img{
+        width: 100px;
+        height: 150px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+    .top-section h1{
+        font-size: 20px;
+        margin-left: 2px;
+        color: #1d1e4c;
+    }
+    .top-section h4{
+        text-align: center;
+        font-size: 17px;
+    }
+    .about-section h2{
+        font-size: 30px;
+    }
+    .about-section{
+        margin-top: 30px;
+        
+    }
+    .about-section p{
+        font-size: 13px;
+        letter-spacing: 0.8px;
+        font-weight: 100px;
+    }
+    .bio-section h3{
+        font-size: 25px;
+    }
+    .bio-section li{
+        letter-spacing: 0.8px;
+    }
+
+}
+@media screen and (min-width: 400px) and (max-width:500px){
+    .img-container, img{
+        width: 210px;
+        height: 300px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+    .top-section h1{
+        font-size: 17px;
+        margin-left: 2px;
+        color: #1d1e4c;
+    }
+    .top-section h4{
+        text-align: center;
+        font-size: 17px;
+    }
+    .about-section h2{
+        font-size: 30px;
+    }
+    .about-section{
+        margin-top: 30px;
+        
+    }
+}
+@media screen and (min-width: 500px) and (max-width:600px){
+    .img-container, img{
+        width: 210px;
+        height: 300px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+    .top-section h1{
+        font-size: 25px;
+        margin-left: 2px;
+        color: #1d1e4c;
+    }
+    .top-section h4{
+        text-align: center;
+        font-size: 19px;
+    }
+}
+@media screen and (min-width: 600px) and (max-width:750px){
+    .img-container, img{
+        width: 250px;
+        height: 300px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+    .top-section h1{
+        font-size: 40px;
+        margin-left: 10px;
+        color: #1d1e4c;
+    }
+    .top-section h4{
+        text-align: center;
+        font-size: 29px;
+    }
+}
